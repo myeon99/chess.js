@@ -176,7 +176,11 @@ var Chess = function(fen) {
   } else {
     load(fen);
   }
-
+  /*
+  function name : clear
+  parameter : keep_header
+  description : blababa
+  */
   function clear(keep_headers) {
     if (typeof keep_headers === 'undefined') {
       keep_headers = false;
